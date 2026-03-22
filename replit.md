@@ -11,39 +11,33 @@ A personal professional landing page for Bella Illingworth, a Business Analytics
 - **Folder structure:**
   ```
   /
-  ├── index.html          # Single-page site
-  ├── css/stylesheet.css  # All styles (no inline styles permitted)
-  ├── js/scripts.js       # Minimal JS (nav highlight only)
-  └── images/             # Headshot and any local images
+  ├── index.html              # Single-page site
+  ├── css/stylesheet.css      # All styles (no inline styles)
+  ├── js/scripts.js           # Nav active-state highlight
+  └── images/headshot.jpg     # Professional headshot
   ```
 
 ## Running the Project
 
-The site is served via `npx serve . -l 5000` on port 5000.
+Served via `npx serve . -l 5000` on port 5000.
 
 - **Workflow:** "Start application" → `npx serve . -l 5000`
 - **Deployment:** Static site, `publicDir: "."`
 
-## Standards
+## Standards (per STANDARDS.md)
 
-See `STANDARDS.md` for full coding and design standards. Key rules:
 - No inline `style=""` attributes, no `<style>` tags
 - All styles in `css/stylesheet.css`
 - All images in `images/` referenced by relative path
 - No resume links anywhere on the site
 - WCAG 2.2 Level AA accessibility compliance
-- Color palette: teal accent `#0D6E6E`, bg `#F8F9FA`, text `#212529`
-- Font: Inter (Google Fonts)
+- Color palette: teal accent `#0D6E6E`, bg `#F8F9FA`, text `#212529`, alt bg `#E9ECEF`
+- Font: Inter (Google Fonts), 16px body, 1.6 line height
 
-## Content
+## Content (Real — sourced from resume and PRD)
 
-- **Hero:** Name, tagline, intro, "Get in touch" CTA
-- **About:** Bio + University of Iowa, BAIS, May 2026
-- **Skills:** Programming & Analytics / Tools / Analytics Methods
-- **Projects:** ICAN Mobile App, Real Estate Market Analysis, Movie Revenue Modeling
-- **Contact:** Email, LinkedIn, GitHub badges
-
-## Notes
-
-- `images/headshot.jpg` is a placeholder path — Bella needs to upload her actual headshot
-- Update email and social links in `index.html` before publishing
+- **Education:** B.B.A., Business Analytics & Information Systems, U of Iowa, May 2026, GPA 3.70
+- **Contact:** qben1410@gmail.com | linkedin.com/in/bella-illingworth | github.com/bellaillingworth
+- **Sections:** Hero → About → Experience → Skills → Projects → Contact
+- **Experience:** ICAN Full-Stack App Developer (Aug 2025–present), Tippie Analytics Cooperative BA Internship (Jun–Jul 2025), Etsy Poster Shop Owner (2021–2024)
+- **Projects:** ICAN Mobile App, Real Estate Market Analysis (Python/Pandas), Movie Revenue Modeling (Orange/Regression)
