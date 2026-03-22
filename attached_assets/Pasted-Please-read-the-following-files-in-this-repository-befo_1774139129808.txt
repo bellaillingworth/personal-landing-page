@@ -1,0 +1,44 @@
+Please read the following files in this repository before writing any code:
+
+- `PRD.md` — this defines what I am building, who it is for, and what content must appear
+- `STANDARDS.md` — this defines the technical and design standards you must follow on every file you write
+- My resume (the uploaded PDF or .docx file in this repo)
+
+My LinkedIn profile: https://www.linkedin.com/in/bella-illingworth
+My GitHub profile: https://github.com/bellaillingworth
+
+Important instructions before you begin:
+- Do not start coding immediately
+- First, carefully read all files and review my LinkedIn profile
+- Use my real background, experiences, projects, skills, and contact links
+- Do not use placeholder text anywhere
+- Do not invent experience, metrics, tools, or projects that are not supported by my files or LinkedIn
+- If something is missing, flag it clearly before building
+
+After reviewing everything, confirm your understanding in a structured summary before writing any code. Tell me:
+
+1. The goal of the page and who it is for
+2. The content sections you will build and what goes in each one
+3. The visual direction you will use, including color palette, typography, spacing, and layout
+4. What content you will pull from my resume, PRD, LinkedIn, and GitHub
+5. Anything unclear, inconsistent, or missing before you begin
+
+Wait for my confirmation before generating code.
+
+Once I confirm, build the complete:
+- `index.html`
+- `stylesheet.css`
+
+Build requirements:
+- Follow `PRD.md` and `STANDARDS.md` exactly
+- Use my actual name, bio, skills, experience, and project details
+- Keep the site professional, modern, and visually polished
+- Make the page feel strong for recruiters, hiring managers, and product or tech-focused audiences
+- Prioritize strong visual hierarchy, clean spacing, and a polished hero section
+- Make the landing page easy to scan quickly
+- Include only content that strengthens my positioning for internships or full-time business analyst, product, or analytics roles
+- Reference my headshot using: `images/headshot.jpg`
+- Make all links functional where appropriate
+- Ensure the final HTML and CSS are clean, organized, and easy to edit later
+
+Do not generate any extra files unless necessary. Focus on producing a strong first version of `index.html` and `stylesheet.css`.
